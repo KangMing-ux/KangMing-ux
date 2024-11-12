@@ -223,7 +223,7 @@
 <h2><span id="分组数据">分组数据</span></h2><p>为处理”计算每个供应商提供商品的平均价格”这类问题，就需要用到数据分组。</p>
 <p>使用GROUP BY语句建立分组</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> vend_id, <span class="built_in">AVG</span>(prod_price) <span class="keyword">AS</span> avg_price <span class="keyword">FROM</span> Products <span class="keyword">GROUP</span> <span class="keyword">BY</span> vend_id;</span><br></pre></td></tr></table></figure>
-<p>使用ORDER BY子句有如下规定。</p>
+<p>使用GROUP BY子句有如下规定。</p>
 <div style="width:65%;margin:auto"><img src="/course/sql-ch1-par2/5.png" class title="pic5"></div>
 
 <p>&nbsp;</p>
